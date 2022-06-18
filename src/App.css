@@ -1,0 +1,77 @@
+@font-face {
+    font-family: '';
+    src: url("./");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    background-color: #979797;
+}
+
+nav {
+    position: fixed;
+    background-color: #0a0404;
+}
+
+.nav-link {
+    border-radius: 1rem;
+}
+
+.nav-link:hover{
+    color: #f55e06!important;
+    background-color: #eeecec;
+}
+
+.bg-image {
+    background-image: url('./assets/Image/wallpaper1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5rem;
+}
+
+.bg-image form {
+    width: 490px;
+    border-radius: 1rem;
+    background-color: rgb(238, 236, 236, 0.7);
+}
+
+.card {
+    background-color: rgb(9, 66, 66);
+    
+}
+
+.card:hover {
+    transform: scale(1.03);
+}
+
+.AdForm {
+    width: 500px;
+    border-radius: 1rem;
+    background-color: #eeecec;
+    box-shadow: 5px 4px 11px 2px #1817172e;
+}
+
+.logForm {
+    border-radius: 1rem;
+    background-color: #eeecec;
+    box-shadow: 5px 4px 11px 2px #1817172e;
+}
+
+.logForm .form-control {
+    background-color: #eeecec;
+    border-left: #ffffff;
+    border-top: #ffffff;
+    border-right: #ffffff;
+}
+
+.form-img {
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    height: 100%;
+    width: 100%;
+}
